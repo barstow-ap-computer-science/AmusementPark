@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 /**
- * Write a description of class AmusementPark here.
+ * An AmusementPark. Has a name and some attractions.
  *
- * @author (your name)
  * @4/22/2019
  */
 public class AmusementPark
