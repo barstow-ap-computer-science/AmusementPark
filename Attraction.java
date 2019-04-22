@@ -1,7 +1,6 @@
 /**
- * Abstract class Attraction - write a description of the class here
+ * The outline for an Attraction.
  *
- * @author (your name here)
  * @4/22/2019
  */
 public abstract class Attraction
