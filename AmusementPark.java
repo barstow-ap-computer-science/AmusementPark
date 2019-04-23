@@ -6,7 +6,7 @@ import java.util.ArrayList;
  */
 public class AmusementPark
 {
-    //Test Commit
+    //Test Commit 2
     private String name;
     private ArrayList<Attraction> attractions;
 
