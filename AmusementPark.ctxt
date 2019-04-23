@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AmusementPark
+comment0.text=\n\ An\ AmusementPark.\ Has\ a\ name\ and\ some\ attractions.\n\n\ @4/22/2019\n
+comment1.params=inputName
+comment1.target=AmusementPark(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.util.ArrayList\ getAttractions()
+comment4.params=attraction
+comment4.target=void\ addAddtraction(Attraction)
+numComments=5
