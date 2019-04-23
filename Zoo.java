@@ -1,16 +1,19 @@
-
-/**
- * Write a description of class Zoo here.
- *
- * @author (your name)
- * @version (a version number or a date)
+/*
+ * Represents a Zoo.
+ * 
+ * @author Grayson Martin
  */
 public class Zoo extends Attraction {
-    public Zoo(String name, Double price) {
+    ZooAnimal[] animals;
+    
+    public Zoo(String name, Double price, ZooAnimal[] animals) {
         super(name, price);
+        this.animals = animals;
     }
     
     public void interact() {
-        System.out.println("zoo sounds");
+        for (int i = 0; i < animals.length; i++) {
+            System.out.println(animals[i].getName() + ": " + animals[i].makeSound());
+        }
     }
 }
