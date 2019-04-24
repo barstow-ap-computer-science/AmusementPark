@@ -21,7 +21,7 @@ public class AmusementPark
         return name;
     }
 
-    public ArrayList getAttractions()
+    public ArrayList<Attraction> getAttractions()
     {
         return attractions;
     }
