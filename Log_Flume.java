@@ -1,8 +1,10 @@
 /**
- * Write a description of class Log_Flume here.
+ * This is the best ride at the park.
+ * You get to eat Rucci's as a part of this ride
+ * You also get to borrow Mr. Daniel's red hot Fit
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @Scott Daniel
+ * @version today
  */
 public class Log_Flume extends Attraction
 {
@@ -19,7 +21,8 @@ public class Log_Flume extends Attraction
     // Example of abstract method  - implementation
     public void interact ()
     {
-        System.out.print("To ride this attraction, it will cost you ");
-        System.out.println("$ " + getPrice() + ", " + super.getName());
+        System.out.print("To ride the " + getName() +", it will cost you ");
+        System.out.println("$ " + getPrice());
+        System.out.println("Oops - I dropped my samosas!");
     }
 }
