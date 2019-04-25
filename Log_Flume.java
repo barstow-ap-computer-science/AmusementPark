@@ -20,6 +20,6 @@ public class Log_Flume extends Attraction
     public void interact ()
     {
         System.out.print("To ride this attraction, it will cost you ");
-        System.out.println("$ " + getPrice() + ", " + getName());
+        System.out.println("$ " + getPrice() + ", " + super.getName());
     }
 }

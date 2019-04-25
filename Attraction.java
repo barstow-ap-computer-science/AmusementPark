@@ -1,3 +1,5 @@
+import java.awt.Desktop;
+import java.net.URL;
 /**
  * The outline for an Attraction.
  *
@@ -25,4 +27,13 @@ public abstract class Attraction
     }
     
     public abstract void interact();
+    
+    public final void youCantTouchThis()
+    {
+        try 
+        {
+            Desktop.getDesktop().browse(new URL("https://www.youtube.com/watch?v=rog8ou-ZepE").toURI());
+        }
+        catch (Exception e) {}  
+    }
 }

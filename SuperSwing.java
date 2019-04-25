@@ -16,5 +16,6 @@ public class SuperSwing extends Attraction
         System.out.println("It's a giant swing in the air.");
         System.out.println("Here you go!");
         System.out.println("WEEEEEEEEEE!!!");
+        youCantTouchThis();
     }
 }
