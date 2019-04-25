@@ -5,7 +5,7 @@
  */
 public class ZooAnimal {
     private String name;
-    private String sound;
+    private String sound; // roar
     
     public ZooAnimal(String n, String s) {
         name = n;

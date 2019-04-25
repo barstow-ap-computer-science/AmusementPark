@@ -8,7 +8,7 @@ public class Bathroom extends Attraction {
     
     public Bathroom() {
         super("Bathroom " + bathroomNumber, 0.00);
-        bathroomNumber++;
+        bathroomNumber++; // great
     }
     
     public void interact() {
