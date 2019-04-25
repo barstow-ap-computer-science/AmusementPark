@@ -5,6 +5,7 @@ import javax.swing.*;
  *
  * @author (your name)
  * @version (a version number or a date)
+ */
 public class Dart 
 {
     public Dart(int xcord,int ycord){
