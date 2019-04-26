@@ -1,3 +1,4 @@
+//Sola Dugbo
 public class RollerCoaster extends Attraction {
     int size = 0;
     public RollerCoaster(String name, Double price, int size) {
