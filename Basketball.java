@@ -23,7 +23,7 @@ public class Basketball extends Attraction
    
     {
         
-    }
+    
     public String begin(){
     JOptionPane.showMessageDialog(null, "Welcome to Basketball Hoops!!");
     String welcome = JOptionPane.showInputDialog("How many balls would you like to play with?");
@@ -89,5 +89,4 @@ public class Basketball extends Attraction
     
         return null;
     }
-    
 }

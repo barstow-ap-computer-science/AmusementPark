@@ -8,7 +8,7 @@ public class ParkVisitor {
     private String name;
     private AmusementPark currentPark;
     private Double money;
-    
+    // instance
     public ParkVisitor(String name, Double money) {
         this.name = name;
         this.money = money;
